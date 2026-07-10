@@ -1,127 +1,225 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* shared style */
 
 /* nav bar style */
-body{
-    max-width: 1550px;
-    margin: 0 auto;
-    font-family: "Inter", sans-serif;
+body {
+  max-width: 1550px;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
 }
-.head-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 25px 115px;
+.head-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 115px;
 }
 /* .nav-logo{
     cursor: pointer;
 } */
-.head-nav ul{
-    display: flex;
-    list-style: none;
-    gap: 25px;
+.head-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
 }
-.head-nav ul li a{
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 500;
-    color: #575757;
+.head-nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #575757;
 }
-.head-nav button{
-    background-color: #1D4ED8;
-    padding: 12px 40px;
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
+.head-nav button {
+  background-color: #1d4ed8;
+  padding: 12px 40px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 /* banner style */
-.banner{
-    background-image: url(./assets/banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    color: white;
-    height: 786px;
-    background-image:
-        linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,1)),
-        url("./assets/banner.jpg");
-    
+.banner {
+  background-image: url(./assets/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 786px;
+  background-image:
+    linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+    url("./assets/banner.jpg");
 }
 .banner-content {
-    text-align: center;
+  text-align: center;
 }
-.banner h1{
-    padding-top: 135px;
-    margin-bottom: 16px;
-    font-weight: bold;
-    font-size: 80px;
+.banner h1 {
+  padding-top: 135px;
+  margin-bottom: 16px;
+  font-weight: bold;
+  font-size: 80px;
 }
-.banner h1 .title-design{
-    font-style: italic;
+.banner h1 .title-design {
+  font-style: italic;
 }
-.banner p{
-    font-size: 22px;
+.banner p {
+  font-size: 22px;
 }
-.banner button{
-    background-color: #1D4ED8;
-    color: white;
-    padding: 25px 62px;
-    border: none;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size: 24px;
-    margin-top: 275px;
-    cursor: pointer;
+.banner button {
+  background-color: #1d4ed8;
+  color: white;
+  padding: 25px 62px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 275px;
+  cursor: pointer;
 }
 
 /* speakers-details */
-.speakers-section{
-    margin: 80px 115px 170px;
+.speakers-section {
+  margin: 80px 115px 170px;
 }
-.speakers-section h2{
-    text-align: center;
-    font-size: 56px;
-    font-weight: 700;
-    color: #000102;
+.speakers-section h2 {
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  color: #000102;
 }
-.speakers-container{
-    margin-top: 55px;
-    display: grid;
-    gap: 30px;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: space-around;
+.speakers-container {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-around;
+  margin-top: 55px;
 }
-.speaker-info{
-    border: 1px solid rgb(221, 221, 221);
-    border-radius: 10px;
+.speaker-info {
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 12px;
+  box-shadow: 10px 10px 10px rgba(110, 110, 110, 0.1);
 }
 .speaker-info-content {
-    padding: 25px;
+  padding: 25px;
 }
-.speaker-info img{
-    border-radius: 10px 10px 0 0;
+.speaker-info img {
+  border-radius: 12px 12px 0 0;
+  width: 100%;
+  cursor: pointer;
 }
-.speaker-info h5{
-    font-size: 12px;
+.speaker-info h5 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #2563eb;
+  margin-bottom: 8px;
+}
+.speaker-info h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0d1b2a;
+  margin-bottom: 8px;
+}
+.speaker-info p {
+  font-size: 14px;
+  color: #575757;
+}
+/* subscription plan section */
+
+.subscription-plan {
+}
+.subscription-plan h2 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  color: #0d1b2a;
+}
+.subscription-plan> p {
+    margin-top: 12px;
+  text-align: center;
+  font-size: 16px;
+  color: #575757;
+}
+.subscription-card-container {
+    margin: 48px 200px 130px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.subscription-card {
+    width: 370px;
+    border-radius: 12px;
+    padding: 32px;
+    border: 1px solid rgb(221, 221, 221);
+    box-shadow: 10px 10px 15px rgba(110, 110, 110, 0.1);
+}
+.subscription-card h6{
+    font-size: 13px;
     font-weight: 500;
-    color: #2563EB;
-    margin-bottom: 8px;
+    color: #888888;
 }
-.speaker-info h4{
-    font-size: 20px;
+.subscription-card h3{
+    font-size: 44px;
     font-weight: 700;
     color: #0D1B2A;
-    margin-bottom: 8px;   
+    
 }
-.speaker-info p{
+.subscription-card p{
+    font-size: 13px;
+    color: #888888;
+}
+.subscription-card hr{
+    border: none;
+    height: 1px;
+    background-color: #E5E7EB;
+    margin: 20px 0;
+}
+.subscription-card li{
     font-size: 14px;
-    color: #575757;
+    color: #333333;
+    margin-bottom: 10px;
+    list-style-position: inside;
+}
+.subscription-card li::marker{
+    color: #2563EB;
+}
+.subscription-card button{
+    width: 100%;
+    padding: 11px 0;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid #0D1B2A;
+    cursor: pointer;
+}
+
+.standard button{
+    color: #2563EB;
+    border: 1px solid #2563EB;
+}
+.pro{
+    background-color: #0D1B2A;
+}
+.pro h6{
+    color: #93C5FD;
+}
+.pro h3{
+    color: white;
+}
+.pro p,
+.pro li{
+    color: rgba(255, 255, 255, 0.8);
+}
+.pro button{
+    color: white;
+    background-color: #2563EB;
+}
+.pro hr{
+    background-color: rgba(229, 231, 235, 0.20);
+}
+.team{
+    background-color: #F8F9FB;
 }
