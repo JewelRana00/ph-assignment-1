@@ -7,7 +7,7 @@
 
 /* nav bar style */
 body {
-  max-width: 1550px;
+  /* max-width: 1260px; */
   margin: 0 auto;
   font-family: "Inter", sans-serif;
 }
@@ -137,89 +137,152 @@ body {
   font-weight: 700;
   color: #0d1b2a;
 }
-.subscription-plan> p {
-    margin-top: 12px;
+.subscription-plan > p {
+  margin-top: 12px;
   text-align: center;
   font-size: 16px;
   color: #575757;
 }
 .subscription-card-container {
-    margin: 48px 200px 130px;
-    display: flex;
-    justify-content: space-between;
-    gap: 24px;
+  margin: 48px 200px 130px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
 }
 
 .subscription-card {
-    width: 370px;
-    border-radius: 12px;
-    padding: 32px;
-    border: 1px solid rgb(221, 221, 221);
-    box-shadow: 10px 10px 15px rgba(110, 110, 110, 0.1);
+  width: 370px;
+  border-radius: 12px;
+  padding: 32px;
+  border: 1px solid rgb(221, 221, 221);
+  box-shadow: 10px 10px 15px rgba(110, 110, 110, 0.1);
 }
-.subscription-card h6{
-    font-size: 13px;
-    font-weight: 500;
-    color: #888888;
+.subscription-card h6 {
+  font-size: 13px;
+  font-weight: 500;
+  color: #888888;
 }
-.subscription-card h3{
-    font-size: 44px;
-    font-weight: 700;
-    color: #0D1B2A;
-    
+.subscription-card h3 {
+  font-size: 44px;
+  font-weight: 700;
+  color: #0d1b2a;
 }
-.subscription-card p{
-    font-size: 13px;
-    color: #888888;
+.subscription-card p {
+  font-size: 13px;
+  color: #888888;
 }
-.subscription-card hr{
-    border: none;
-    height: 1px;
-    background-color: #E5E7EB;
-    margin: 20px 0;
+.subscription-card hr {
+  border: none;
+  height: 1px;
+  background-color: #e5e7eb;
+  margin: 20px 0;
 }
-.subscription-card li{
-    font-size: 14px;
-    color: #333333;
-    margin-bottom: 10px;
-    list-style-position: inside;
+.subscription-card li {
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 10px;
+  list-style-position: inside;
 }
-.subscription-card li::marker{
-    color: #2563EB;
+.subscription-card li::marker {
+  color: #2563eb;
 }
-.subscription-card button{
-    width: 100%;
-    padding: 11px 0;
-    border-radius: 10px;
-    background-color: white;
-    border: 1px solid #0D1B2A;
-    cursor: pointer;
+.subscription-card button {
+  width: 100%;
+  padding: 11px 0;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid #0d1b2a;
+  cursor: pointer;
 }
 
-.standard button{
-    color: #2563EB;
-    border: 1px solid #2563EB;
+.standard button {
+  color: #2563eb;
+  border: 1px solid #2563eb;
 }
-.pro{
-    background-color: #0D1B2A;
+.pro {
+  background-color: #0d1b2a;
 }
-.pro h6{
-    color: #93C5FD;
+.pro h6 {
+  color: #93c5fd;
 }
-.pro h3{
-    color: white;
+.pro h3 {
+  color: white;
 }
 .pro p,
-.pro li{
-    color: rgba(255, 255, 255, 0.8);
+.pro li {
+  color: rgba(255, 255, 255, 0.8);
 }
-.pro button{
-    color: white;
-    background-color: #2563EB;
+.pro button {
+  color: white;
+  background-color: #2563eb;
 }
-.pro hr{
-    background-color: rgba(229, 231, 235, 0.20);
+.pro hr {
+  background-color: rgba(229, 231, 235, 0.2);
 }
-.team{
-    background-color: #F8F9FB;
+.team {
+  background-color: #f8f9fb;
+}
+/* self idea */
+
+.self-idea {
+  margin-bottom: 130px;
+}
+
+/* footer */
+.footer {
+  padding: 32px 56px;
+  background-color: #0d1b2a;
+}
+.footer-logo {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-logo img {
+  padding: 8px 12px;
+  background-color: #ffffff;
+  height: 50px;
+  border-radius: 12px;
+  box-shadow: 1px 1px 15px rgb(255, 0, 0);
+}
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+.fa-brands {
+  color: black;
+  font-size: 35px;
+  height: 42px;
+  width: 42px;
+  border: 1px solid rgba(0, 81, 255, 0.377);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgb(255, 255, 255);
+}
+.social-icons a {
+  text-decoration: none;
+}
+.copyright-message {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(229, 231, 235, 0.4);
+  font-size: 14px;
+}
+.copyright-message ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.footer hr{
+    border: none;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.20);
 }
