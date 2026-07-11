@@ -11,9 +11,9 @@ body {
   margin: 0 auto;
   font-family: "Inter", sans-serif;
 }
-main{
-    max-width: 1440px;
-    margin: 0 auto;
+main {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .head-nav {
   display: flex;
@@ -228,8 +228,49 @@ main{
 }
 /* self idea */
 
-.self-idea {
-  margin-bottom: 130px;
+.why-attend-devconf {
+  margin: 0 115px 130px;
+  text-align: center;
+}
+.why-attend-devconf h2 {
+  font-size: 44px;
+  font-weight: 700;
+  color: #0d1b2a;
+}
+.why-attend-devconf p {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 16px;
+  color: #575757;
+}
+.devconf-card-container {
+  margin-top: 60px;
+  display: grid;
+  row-gap: 40px;
+  grid-template-columns: repeat(2, 435px);
+  justify-content: space-around;
+}
+.devconf-card {
+  padding: 15px;
+  border: 1px solid rgba(172, 172, 172, 0.2);
+  border-radius: 12px;
+  background-color: rgba(229, 231, 235, 0.2);
+  box-shadow: 10px 10px 15px rgba(110, 110, 110, 0.1);
+}
+.devconf-card h3 {
+  margin-bottom: 10px;
+  color: #4b4b4b;
+}
+.devconf-card p {
+  font-size: 15px;
+}
+.fa-solid,
+.fa-regular {
+  width: 100%;
+  color: #404b61;
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 /* footer */
@@ -279,14 +320,14 @@ main{
   color: rgba(229, 231, 235, 0.4);
   font-size: 14px;
 }
-.copyright-message ul{
-    display: flex;
-    list-style: none;
-    gap: 20px;
+.copyright-message ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
 }
 
-.footer hr{
-    border: none;
-    height: 1px;
-    background-color: rgba(255, 255, 255, 0.20);
+.footer hr {
+  border: none;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
 }
