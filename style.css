@@ -11,6 +11,10 @@ body {
   margin: 0 auto;
   font-family: "Inter", sans-serif;
 }
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 .head-nav {
   display: flex;
   align-items: center;
